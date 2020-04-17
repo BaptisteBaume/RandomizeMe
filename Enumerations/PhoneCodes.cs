@@ -5,14 +5,16 @@
 //  ***************************************
 //  Baptiste Baume
 //  Copyright (c) BbTech 2020 All Rights Reserved
-//  17/04/2020 21:20:01
+//  17/04/2020 21:26:25
 
-using Bb.RandomizeMe.Core.Interfaces.Business.Base;
-using Bb.RandomizeMe.Core.Interfaces.Dto;
-
-namespace Bb.RandomizeMe.Core.Business.Base
+namespace Bb.RandomizeMe.Core.Enumerations
 {
-    internal abstract class BaseBusiness : IBaseBusiness<IBusinessResult>
+    public class PhoneCodes
     {
+        #region Fields
+
+        public static readonly string[] PHONE_CODES = { "01", "02", "03", "04", "05", "06", "07" };
+
+        #endregion
     }
 }

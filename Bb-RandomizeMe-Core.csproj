@@ -2,15 +2,9 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>Bb_RandomizeMe_Core</RootNamespace>
+    <RootNamespace>Bb.RandomizeMe.Core</RootNamespace>
     <PackageIcon>bbtech.png</PackageIcon>
   </PropertyGroup>
-
-  <ItemGroup>
-    <Compile Remove="NewFolder\**" />
-    <EmbeddedResource Remove="NewFolder\**" />
-    <None Remove="NewFolder\**" />
-  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="MySql.Data" Version="8.0.19" />
@@ -23,6 +17,10 @@
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Enumerations\" />
   </ItemGroup>
 
 </Project>

@@ -1,6 +1,15 @@
-﻿using Bb_RandomizeMe_Core.Interfaces.Dto;
+﻿//  ***************************************
+//                                                   
+//          Bb-RandomizeMe-Core
+//                                                   
+//  ***************************************
+//  Baptiste Baume
+//  Copyright (c) BbTech 2020 All Rights Reserved
+//  17/04/2020 21:20:04
 
-namespace Bb_RandomizeMe_Core.Interfaces.Business.Base
+using Bb.RandomizeMe.Core.Interfaces.Dto;
+
+namespace Bb.RandomizeMe.Core.Interfaces.Business.Base
 {
     #region Interfaces
 

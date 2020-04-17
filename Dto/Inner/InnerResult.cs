@@ -1,4 +1,13 @@
-﻿namespace Bb_RandomizeMe_Core.Dto.Inner
+﻿//  ***************************************
+//                                                   
+//          Bb-RandomizeMe-Core
+//                                                   
+//  ***************************************
+//  Baptiste Baume
+//  Copyright (c) BbTech 2020 All Rights Reserved
+//  17/04/2020 21:20:03
+
+namespace Bb.RandomizeMe.Core.Dto.Inner
 {
     public class InnerResult<T> : BaseDto
     {
