@@ -17,7 +17,7 @@ using System.Text;
 
 namespace Bb.RandomizeMe.Core.Business
 {
-    internal class RandomizeMe : BaseBusiness, IRandomizeMe
+    internal class RandomizeMeBusiness : BaseBusiness, IRandomizeMe
     {
         #region Methods
 

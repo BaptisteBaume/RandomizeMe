@@ -15,7 +15,7 @@ namespace Bb.RandomizeMe.Core.Interfaces.Business
 {
     #region Interfaces
 
-    interface IRandomizeMe : IBaseBusiness<IBusinessResult>
+   public interface IRandomizeMe : IBaseBusiness<IBusinessResult>
     {
         #region Methods
 
